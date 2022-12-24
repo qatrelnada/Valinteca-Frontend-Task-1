@@ -1,0 +1,60 @@
+.head-subhead-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.head-subhead-sign-up {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.head-sign-up {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 120%;
+  color: #2D2D2D;
+  width: 450px;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.subhead-sign-up {
+  width: 450px;
+  line-height: 160%;
+  margin: 0;
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 24px;
+  color: #1F1249;
+}
+
+@media (max-width: 375px) {
+  .img {
+    width: 315px;
+    height: 315px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .head-subhead-sign-up {
+    text-align: center;
+    gap: 16px;
+  }
+
+  .head-sign-up {
+    font-size: 32px;
+    width: 315px;
+  }
+
+  .subhead-sign-up {
+    font-size: 16px;
+    width: 315px;
+  }
+}
